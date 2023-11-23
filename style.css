@@ -1,0 +1,90 @@
+Import Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto|Lobster');
+
+p {
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  #author-size {
+    font-size: 17px;
+    
+  }
+ 
+  h1, h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    text-align: center;
+
+  }
+  
+
+  em {
+    font-style: italic;
+    font-size: 20px;
+  }
+  
+  a {
+    font-style: normal;
+    color: white
+  }
+
+  a:hover {
+    color: #114a0a;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: #114a0a;
+  }
+  
+ 
+  
+  body {
+    background-image: radial-gradient(#eee, #114a0a,  #f65b0b);
+  }
+
+  .first-body {
+    background-color: #F65B0B;
+    margin: 0;
+    padding: 20px;
+    font-size: 18px;
+    font-family: roboto, sans-serif;
+    color: white;
+  }
+
+  .second-body {
+    background-color: #eee;
+    margin: 0;
+    padding: 20px;
+    font-size: 18px;
+    font-family: roboto, sans-serif;
+    color: white;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+  }
+ 
+  img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 2%;
+  }
+ 
+  .ingredients {
+    background-color: #eee;
+    color: #114a0a;
+    margin-bottom: -40px;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+  }
+
+.preparation {
+    background-image: linear-gradient( #eee, #F65B0B);
+    color: #114a0a;
+    margin-top: -20px;
+    border-bottom-left-radius: 13px;
+border-bottom-right-radius: 13px;
+}
